@@ -15,11 +15,11 @@ func isDivisibleBy(i int, num int) bool {
 }
 
 func fizzbuzz(i int) interface{} {
-  if i % 15 == 0 {
+  if isDivisibleBy(i, 15) {
     return "FizzBuzz"
-  } else if  i % 3 == 0 {
+  } else if  isDivisibleBy(i, 3) {
     return "Fizz"
-  } else if i % 5 == 0{
+  } else if isDivisibleBy(i, 5) {
     return "Buzz"
   } else {
     return i
