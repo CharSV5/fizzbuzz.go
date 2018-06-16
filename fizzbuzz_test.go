@@ -1,3 +1,5 @@
+package main
+
 import (
     "testing"
 
@@ -10,9 +12,9 @@ func TestCart(t *testing.T) {
     RunSpecs(t, "FizzBuzz")
 }
 
-var _ = Describe("main", func() {
+var _ = Describe("isDivisibleBy", func() {
   Context("When i is divisible by 15", func() {
-    it("returns true", func() {
+    It("returns true", func() {
       Expect(isDivisibleBy(30, 15)).Should(BeTrue())
     })
   })
