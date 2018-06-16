@@ -29,4 +29,12 @@ var _ = Describe("isDivisibleBy", func() {
       Expect(isDivisibleBy(7, 3)).Should(BeFalse())
     })
   })
+  Context("When i is divided by 5", func() {
+    It("returns true if divisible by 5", func() {
+      Expect(isDivisibleBy(10, 5)).Should(BeTrue())
+    })
+    It("returns false if not divisible by 5", func() {
+      Expect(isDivisibleBy(11, 5)).Should(BeFalse())
+    })
+  })
 })
