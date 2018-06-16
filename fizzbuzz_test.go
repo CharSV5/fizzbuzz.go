@@ -50,6 +50,9 @@ var _ = Describe("isDivisibleBy", func() {
     It("prints Buzz when number is divisible by 5", func() {
       Expect(fizzbuzz(10)).To(Equal("Buzz"))
     })
+    It("prints i when number is not divisibly by 15, 3 or 5", func() {
+      Expect(fizzbuzz(11)).To(Equal(11))
+    })
   })
 })
 

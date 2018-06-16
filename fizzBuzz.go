@@ -12,7 +12,7 @@ func isDivisibleBy(i int, num int) bool {
   return  i % num == 0
 }
 
-func fizzbuzz(i int) string {
+func fizzbuzz(i int) interface{} {
   if i % 15 == 0 {
     return "FizzBuzz"
   } else if  i % 3 == 0 {
@@ -20,6 +20,6 @@ func fizzbuzz(i int) string {
   } else if i % 5 == 0{
     return "Buzz"
   } else {
-    return "i"
+    return i
   }
 }
