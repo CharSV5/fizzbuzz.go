@@ -55,11 +55,3 @@ var _ = Describe("isDivisibleBy", func() {
     })
   })
 })
-
-// Describe("main", func() {
-//   Context("When ran", func() {
-//     It("replaces numbers divisible by 15, 3 and 5 with FizzBuzz, Fizz and Buzz", func() {
-//       Expect(main())Should
-//     })
-//   })
-// })
