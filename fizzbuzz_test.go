@@ -39,6 +39,14 @@ var _ = Describe("isDivisibleBy", func() {
   })
 })
 
+var _ = Describe("isDivisibleBy", func() {
+  Context("When printing numbers", func() {
+    It("prints FizzBuzz when number is divisible by 15", func() {
+      Expect(isDivisibleBy15(30)).To(Equal("FizzBuzz"))
+    })
+  })
+})
+
 // Describe("main", func() {
 //   Context("When ran", func() {
 //     It("replaces numbers divisible by 15, 3 and 5 with FizzBuzz, Fizz and Buzz", func() {
