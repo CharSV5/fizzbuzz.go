@@ -1,12 +1,14 @@
 package main
 
-// import (
-//   "fmt"
-// )
+import (
+  "fmt"
+)
 
-// func main() {
-//   isDivisibleBy(30, 15)
-// }
+func main() {
+  for i := 1; i <= 100; i++ {
+    fmt.Println(fizzbuzz(i))
+  }
+}
 
 func isDivisibleBy(i int, num int) bool {
   return  i % num == 0
