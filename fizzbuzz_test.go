@@ -47,6 +47,9 @@ var _ = Describe("isDivisibleBy", func() {
     It("prints Fizz when number is divisible by 3", func() {
       Expect(fizzbuzz(6)).To(Equal("Fizz"))
     })
+    It("prints Buzz when number is divisible by 5", func() {
+      Expect(fizzbuzz(10)).To(Equal("Buzz"))
+    })
   })
 })
 
