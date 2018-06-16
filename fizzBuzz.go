@@ -12,7 +12,7 @@ func isDivisibleBy(i int, num int) bool {
   return  i % num == 0
 }
 
-func isDivisibleBy15(i int) string {
+func fizzbuzz(i int) string {
   if i % 15 == 0 {
     return "FizzBuzz"
   } else {
